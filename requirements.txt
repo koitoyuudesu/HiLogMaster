@@ -1,0 +1,15 @@
+# requirements.txt
+
+# GUI Framework
+customtkinter>=5.2.0
+tkinterdnd2>=0.3.0
+
+# File Handling
+chardet>=5.0.0
+rarfile>=4.0
+
+# LLM Interaction
+requests>=2.31.0
+
+# Vector Database
+chromadb>=0.4.0

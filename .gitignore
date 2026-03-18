@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+chromadb_data/
+
+# Logs
+*.log
+logmaster.log
+
+# Data
+data/logs/*
+data/archives/*
+data/db/*
+!data/logs/.gitkeep
+!data/archives/.gitkeep
+!data/db/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+log_records.db
