@@ -101,9 +101,6 @@ python -m pytest tests/
 - **Phase 3**：AI 集成
 - **Phase 4**：检索功能
 
-## 许可证
-
-Copyright (c) 2026-2026 灵犀
 
 ## 贡献
 
