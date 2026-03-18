@@ -19,7 +19,7 @@ class FileDropArea(ctk.CTkFrame):
         self.selected_file: Optional[Path] = None
 
         # 启用拖放
-        tkdnd.TkinterDnD().register(self, tkdnd.DND_FILES)
+        self.drop_target_register(tkdnd.DND_FILES)
 
         # 标签
         self.label = ctk.CTkLabel(self, text="Drag & Drop Log File Here\nor Click to Browse")
