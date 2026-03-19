@@ -26,7 +26,7 @@ class FileDropArea(ctk.CTkFrame):
         self.label.pack(expand=True, padx=20, pady=20)
 
         # 绑定事件
-        self.bind("<Drop>", self.on_drop)
+        self.dnd_bind('<<Drop>>', self.on_drop)
         self.bind("<Button-1>", self.on_click)
 
     def on_drop(self, event):
